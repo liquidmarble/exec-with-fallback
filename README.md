@@ -46,7 +46,7 @@ PS: As *shell_exec()* does not support *$result_code*, it will only be used when
 If you for some reason want to run a specific exec() emulation, you can use the corresponding class directly, ie *ProcOpen::exec()*.
 
 ## Is it worth it?
-Well, often these functions are often all enabled or all disabled. So on the majority of systems, it will not make a difference. But on the other hand: This library is easily installed, very lightweight and very well tested.
+Well, often these functions are all enabled or all disabled. So on the majority of systems, it will not make a difference. But on the other hand: This library is easily installed, very lightweight and very well tested.
 
 **easily installed**\
 Install with composer (`composer require rosell-dk/exec-with-fallback`) and substitute your *exec()* calls.
